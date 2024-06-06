@@ -1,0 +1,64 @@
+body {
+    color: black; /* Asegura que el texto sea negro */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('recursos.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+nav {
+    background-color: #904caf;
+    padding: 1em;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.nav-bar a:hover {
+    background-color: #6845a0;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.section {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-bar li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .nav-bar a {
+        display: block;
+        text-align: center;
+    }
+}
