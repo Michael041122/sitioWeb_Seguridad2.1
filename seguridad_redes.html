@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web - Seguridad de Redes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            color: #333;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #904caf;
+            padding: 1em;
+        }
+
+        .nav-bar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .nav-bar li {
+            margin: 5px 0;
+        }
+
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        .nav-bar a:hover {
+            background-color: #6845a0;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px;
+            background: #333;
+            color: white;
+        }
+
+        .content {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-bar {
+                flex-direction: column;
+            }
+
+            .nav-bar li {
+                display: block;
+            }
+
+            .nav-bar a {
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="malware_protection.html">Protección contra malware</a></li>
+            <li><a href="Proteccion_contraseñas.html">Protección de contraseñas</a></li>
+            <li><a href="seguridad_redes.html">Seguridad de redes</a></li>
+            <li><a href="tips_generales.html">Tips Generales</a></li>
+            <li><a href="resources.html">Recursos</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Seguridad de Redes</h1>
+        <p>¿Qué es la seguridad de redes?</p>
+    </header>
+
+    <div class="content">
+        <section class="section section-1">
+            
+            <img src="images/SECURUTY.jpg" alt="Seguridad de Redes">
+            <p>La seguridad de redes se refiere a las políticas, procedimientos y tecnologías que se utilizan 
+                para proteger la integridad, confidencialidad y disponibilidad de las redes y los datos que se 
+                transmiten a través de ellas.</p>
+        </section>
+
+        <section class="section section-2">
+            <h2>Importancia de la Seguridad de Redes</h2>
+            <img src="images/REDES.jpg" alt="Importancia de la Seguridad">
+            <p>Con el aumento de las amenazas cibernéticas, la seguridad de redes es fundamental para proteger 
+                la información sensible y prevenir accesos no autorizados. Una buena estrategia de seguridad puede
+                 prevenir ataques, detectar vulnerabilidades y responder eficientemente a incidentes de seguridad.</p>
+        </section>
+
+        <section class="section section-3">
+            <h2>Principales Amenazas</h2>
+            <img src="images/COMPU3.jpg" alt="Amenazas">
+            <ul>
+                <li>Malware</li>
+                <li>Phishing</li>
+                <li>Ataques de DDoS</li>
+                <li>Intrusiones no autorizadas</li>
+            </ul>
+        </section>
+
+        <section class="section section-4">
+            <h2>Medidas de Seguridad</h2>
+            <img src="images/NIÑOS.jpg" alt="Medidas de Seguridad">
+            <ul>
+                <li>Uso de firewalls</li>
+                <li>Cifrado de datos</li>
+                <li>Autenticación multifactor</li>
+                <li>Monitorización continua</li>
+                <li>Educación y concienciación del personal</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
